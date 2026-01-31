@@ -20,3 +20,5 @@ include(GoogleTest)
 add_subdirectory(Axiom)
 add_subdirectory(Editor)
 add_subdirectory(Tests)
+
+add_subdirectory(ThirdParty/glfw)
