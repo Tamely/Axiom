@@ -1,7 +1,8 @@
 add_executable(AxiomTests
+  LayerTests.cpp
 )
 
-target_link_libaries(AxiomTests PRIVATE
+target_link_libraries(AxiomTests PRIVATE
   AxiomCore
   GTest::gtest_main
 )

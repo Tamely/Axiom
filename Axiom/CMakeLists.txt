@@ -1,4 +1,5 @@
 set(ENGINE_SOURCES
+  Application.cpp
 )
 
 add_library(AxiomCore STATIC ${ENGINE_SOURCES})
